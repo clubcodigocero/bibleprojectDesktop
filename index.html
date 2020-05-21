@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="twitter:site" content="@metroui">
+    <meta name="twitter:creator" content="@pimenov_sergey">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Metro 4 Components Library">
+    <meta name="twitter:description" content="Metro 4 is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system, extensive prebuilt components, and powerful plugins  .">
+    <meta name="twitter:image" content="https://metroui.org.ua/images/m4-logo-social.png">
+
+    <meta property="og:url" content="https://metroui.org.ua/v4/index.html">
+    <meta property="og:title" content="Metro 4 Components Library">
+    <meta property="og:description" content="Metro 4 is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system, extensive prebuilt components, and powerful plugins  .">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://metroui.org.ua/images/m4-logo-social.png">
+    <meta property="og:image:secure_url" content="https://metroui.org.ua/images/m4-logo-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="968">
+    <meta property="og:image:height" content="504">
+
+    <meta name="author" content="Sergey Pimenov">
+    <meta name="description" content="The most popular HTML, CSS, and JS library in Metro style.">
+    <meta name="keywords" content="HTML, CSS, JS, Metro, CSS3, Javascript, HTML5, UI, Library, Web, Development, Framework">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="metro/css/metro-all.css%3Fver=@@b-version.css" rel="stylesheet">
+    <link href="descktop.css" rel="stylesheet">
+
+    <title>#clubcodigocero Desktop demo - Metro 4 :: Popular HTML, CSS and JS library</title>
+
+    <style>
+        .window-area {
+            background: url("images/exodus-background.jpg") center center no-repeat;
+            background-size: cover;
+        }
+
+        #charm {
+            height: calc(100vh - 40px);
+            width: 396px;
+            background-color: #1F4F5D;
+        }
+
+        ul {
+            display: block;
+            /* Remove bullet points; allow greater control of positioning */
+            padding: 0;
+            /* Override defaults for lists */
+            margin: 0;
+            /* Override defaults for lists */
+            width: 100%;
+            /* Get the row full width */
+            height: 100%;
+            /*your fixed height*/
+            -webkit-column-count: 4;
+            -moz-column-count: 4;
+            column-count: 4;
+        }
+
+        li {
+            display: inline-block;
+            /* Get all images to show in a row */
+            //width: 25%;
+            /* Show 4 logos per row */
+            text-align: left;
+            /* Centre align the images */
+        }
+
+        .caption {
+            padding-left: 10% !important;
+        }
+
+        .drop-shadow {
+            background-color: cornsilk;
+            opacity: 0.5;
+        }
+
+
+        @media only screen and (max-width: 1000px) {
+            ul {
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+            }
+        }
+
+    </style>
+</head>
+
+<body class="m4-cloak">
+
+    <div class="desktop">
+        <div class="window-area">
+
+            <ul class=sidebar-menu>
+                <li class=group-title>Antiguo Testamento</li>
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/HQMKA6w5ZZM')" class="icon-right drop-shadow">
+                        <span class="icon">1.1</span>
+                        <span class="caption ">
+                            Genesis
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/MC8BqGu9B8A')" class="icon-right drop-shadow">
+                        <span class="icon">1.2</span>
+                        <span class="caption">
+                            Genesis
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/y9pED55wMM4')" class="icon-right drop-shadow">
+                        <span class="icon">2.1</span>
+                        <span class="caption">
+                            Éxodo
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/U2lUpubEMDI')" class="icon-right drop-shadow">
+                        <span class="icon">2.2</span>
+                        <span class="caption">
+                            Éxodo
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/vKT8eo3hAMw')" class="icon-right drop-shadow">
+                        <span class="icon">3.0</span>
+                        <span class="caption">
+                            Levítico
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/dtfbSxNecMk')" class="icon-right drop-shadow">
+                        <span class="icon">4.0</span>
+                        <span class="caption">
+                            Números
+                        </span>
+                    </a>
+                </li>
+
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/qfMplfJoYA0')" class="icon-right drop-shadow">
+                        <span class="icon">5.0</span>
+                        <span class="caption">
+                            Deuteronomio
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/49ggVrdBN_Y')" class="icon-right drop-shadow">
+                        <span class="icon">6.0</span>
+                        <span class="caption">
+                            Josué
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">7.0</span>
+                        <span class="caption">
+                            Jueces
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/f984fG4-xlE')" class="icon-right drop-shadow">
+                        <span class="icon">8.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/34biq4ivs5I')" class="icon-right drop-shadow">
+                        <span class="icon">9.1</span>
+                        <span class="caption">
+                            Samuel
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/BEvicPpjQBE')" class="icon-right drop-shadow">
+                        <span class="icon">9.2</span>
+                        <span class="caption">
+                            Samuel
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">11.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">11.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">12.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">13.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">14.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">15.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a onclick="createWindowYoutubeURL('https://youtu.be/bCwaJz4L2nU')" class="icon-right drop-shadow">
+                        <span class="icon">16.0</span>
+                        <span class="caption">
+                            Rut
+                        </span>
+                    </a>
+                </li>
+
+
+
+
+
+
+
+
+
+                <button onclick="createWindowtoURL('filegator/dist', 800, 500)" class="shortcut secondary outline" style="margin: 2%;">
+                    <span class="caption">FileGator</span>
+                    <span class="mif-folder-plus icon"></span>
+                </button>
+
+                <button onclick="createWindowtoURL('docs/programacion')" class="shortcut secondary outline" style="margin: 2%;">
+                    <span class="caption">Programacion</span>
+                    <span class="mif-file-code icon"></span>
+                </button>
+                <br>
+
+                <button onclick="createWindowtoURL('../labs/css3d/css3d_youtube.html')" class="shortcut secondary outline" style="margin: 2%;">
+                    <span class="caption">Animacion</span>
+                    <span class="mif-pencil icon"></span>
+                </button>
+
+
+        </div>
+
+        <div class="task-bar">
+            <div class="task-bar-section">
+                <button class="task-bar-item" id="start-menu-toggle"><span class="mif-creative-commons"></span></button>
+                <div class="start-menu" data-role="dropdown" data-toggle-element="#start-menu-toggle">
+                    <div class="start-menu-inner h-100">
+                        <div class="explorer">
+                            <ul class="v-menu w-100 bg-brandColor2 fg-white">
+                                <li><a onclick="createWindowYoutube()">Ventana Youtube</a></li>
+                                <li>
+                                    <a href="#" class="dropdown-toggle">Miembros</a>
+                                    <ul class="d-menu drop-right drop-up" data-role="dropdown">
+
+                                        <li>
+                                            <a href="#" class="dropdown-toggle">Animation</a>
+                                            <ul class="d-menu drop-right" data-role="dropdown">
+                                                <li><a href="#">Angel L.</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-toggle">Marketing & Media</a>
+                                            <ul class="d-menu drop-right" data-role="dropdown">
+                                                <li><a href=#>Paul O.</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown-toggle">Programacion</a>
+                                            <ul class="d-menu drop-right" data-role="dropdown">
+                                                <li><a href="#">Christian L.</a></li>
+                                                <li><a href="#">Christian U.</a></li>
+                                                <li><a href="#">Jair</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a onclick="createWindow()">Nueva Ventana</a></li>
+                                <li><a onclick="createWindowWithCustomButtons()">Ventana con Botones!</a></li>
+                                <li><a onclick="createWindowModal()">Ventana Modal</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task-bar-section tasks"></div>
+            <div class="task-bar-section system-tray ml-auto">
+                <button class="task-bar-item" id="open-charm" onclick="openCharm()"><span class="mif-comment"></span></button>
+                <span style="line-height: 40px;" class="pr-4">
+                    <span data-role="clock" class="w-auto fg-white reduce-1" data-show-date="false"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="metro/js/metro.js"></script>
+    <script src="desktop.js"></script>
+    <script>
+    </script>
+    <!-- ads-script -->
+</body>
+
+</html>
